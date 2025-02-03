@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Interview Agent</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AI Interview Agent</h1>
+    <div class="job-info">
+        <textarea id="job-description" placeholder="Optional: Paste job description here to get company-specific responses..."></textarea>
+    </div>
+    <div id="chatbox">
+      <!-- Chat messages will appear here -->
+    </div>
+    <div class="controls">
+      <button id="start-btn">Start Listening</button>
+      <button id="stop-btn" disabled>Stop Listening</button>
+    </div>
+  </div>
+
+  <script src="env-config.js"></script>
+  <script src="config.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
